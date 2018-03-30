@@ -1,14 +1,13 @@
 ---
-# This playbook deploys a simple standalone Tomcat 7 server. 
+# This playbook deploys a simple standalone Tomcat 8 server. 
 
 - hosts: '{{target_host}}'
   user: root
   vars: 
-    jdk_version: openjdk-7-jdk
+    jdk_version: openjdk-8-jdk
     # http://apache.osuosl.org/tomcat/tomcat-8/v8.5.29/bin/apache-tomcat-8.5.29-fulldocs.tar.gz	
     tomcat_mirrors: http://apache.osuosl.org
     # Following is working mirror before..
-    # tomcat_mirrors: http://mirrors.hust.edu.cn/apache
     tomcat_major_version: tomcat-8
     tomcat_version: 8.5.29
     #supervisord_conf_path: /opt/python27env/supervisor/conf.d
