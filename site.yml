@@ -9,8 +9,8 @@
     tomcat_mirrors: http://apache.osuosl.org
     # Following is working mirror before..
     # tomcat_mirrors: http://mirrors.hust.edu.cn/apache
-    tomcat_major_version: tomcat-7
-    tomcat_version: 7.0.59
+    tomcat_major_version: tomcat-8
+    tomcat_version: 8.5.29
     #supervisord_conf_path: /opt/python27env/supervisor/conf.d
     #ansible_python_interpreter: /opt/python27env/bin/python
     tomcat_group: www
