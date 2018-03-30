@@ -5,7 +5,10 @@
   user: root
   vars: 
     jdk_version: openjdk-7-jdk
-    tomcat_mirrors: http://mirrors.hust.edu.cn/apache
+    # http://apache.osuosl.org/tomcat/tomcat-8/v8.5.29/bin/apache-tomcat-8.5.29-fulldocs.tar.gz	
+    tomcat_mirrors: http://apache.osuosl.org
+    # Following is working mirror before..
+    # tomcat_mirrors: http://mirrors.hust.edu.cn/apache
     tomcat_major_version: tomcat-7
     tomcat_version: 7.0.59
     #supervisord_conf_path: /opt/python27env/supervisor/conf.d
